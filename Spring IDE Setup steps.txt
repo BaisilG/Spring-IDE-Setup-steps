@@ -1,0 +1,11 @@
+under the latest option which one needs to be select 
+
+where we can see multiple packages and  
+ selec the Web, Xml, java EE and OSi Enterprise Development one 
+
+
+select these things : 
+ 1. Eclipse Java EE developer Tools 
+ 2. Eclipse Java Web Developer Tools
+
+ 
