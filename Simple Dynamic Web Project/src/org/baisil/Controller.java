@@ -32,4 +32,5 @@ public class Controller extends HttpServlet {
 }
 
 
-// response.getwriter is giving the final result that you sow 
+// response.getwriter is giving the final result that you saw.
+// as of now what we learn is controller controll the stuff, view displys the stuff
