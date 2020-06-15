@@ -273,3 +273,54 @@ java.util.zip.ZipException: invalid entry size (expected 1283584 but got 1284672
 
 !ENTRY org.eclipse.jst.server.tomcat.core 4 0 2020-06-15 11:41:26.980
 !MESSAGE Port 8080 required by Tomcat v8.0 Server at localhost is already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-15 11:51:26.688
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-15 11:51:26.704
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4c5e123d[org.springframework.tooling.boot.ls:1.18.0.202005250744(id=636)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-15 11:51:26.797
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-15 11:51:27.734
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-15 11:51:48.784
+!MESSAGE Boot LS startup time from start to initialized: 21935ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-15 11:51:49.144
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.CCSdXSJIisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-15 11:51:49.167
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-15 11:51:49.181
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-15 11:51:49.193
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-15 11:51:49.203
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-15 11:51:49.211
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-15 11:51:49.221
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-15 11:51:49.234
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.CCSdXSJI => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-15 11:51:49.242
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-15 11:51:49.260
+!MESSAGE buffering callback sts4.classpath.CCSdXSJI Simple Dynamic Web Project false 26
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-15 11:51:49.269
+!MESSAGE executing callback sts4.classpath.CCSdXSJI 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-15 11:51:49.393
+!MESSAGE executing callback sts4.classpath.CCSdXSJI SUCCESS [done]
