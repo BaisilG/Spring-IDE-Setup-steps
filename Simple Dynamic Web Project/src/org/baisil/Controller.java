@@ -27,3 +27,6 @@ public class Controller extends HttpServlet {
 
 	
 }
+
+
+// response.getwriter is giving the final result that you sow 
