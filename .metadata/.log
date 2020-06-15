@@ -95,3 +95,135 @@ java.net.UnknownHostException: jope.ow2.org
 	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
 	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2020-06-15 11:26:43.885
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2020-06-15 11:26:43.885
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:43.885
+!MESSAGE Software being installed: JST Server Adapter Plug-in Developer Resources 3.3.600.v201711301708 (org.eclipse.jst.server_adapters.ext.sdk.feature.feature.group 3.3.600.v201711301708)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:43.885
+!MESSAGE Software currently installed: JST Server Adapters Extensions 3.3.700.v201910252115 (org.eclipse.jst.server_adapters.ext.feature.feature.group 3.3.700.v201910252115)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-06-15 11:26:43.885
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:43.885
+!MESSAGE JST Server Adapters Extensions 3.3.700.v201910252115 (org.eclipse.jst.server_adapters.ext.feature.feature.jar 3.3.700.v201910252115)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:43.885
+!MESSAGE JST Server Adapters Extensions 3.3.601.v201711301708 (org.eclipse.jst.server_adapters.ext.feature.feature.jar 3.3.601.v201711301708)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-06-15 11:26:43.885
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:43.885
+!MESSAGE From: JST Server Adapters Extensions 3.3.601.v201711301708 (org.eclipse.jst.server_adapters.ext.feature.feature.group 3.3.601.v201711301708)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:43.885
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jst.server_adapters.ext.feature.feature.jar [3.3.601.v201711301708,3.3.601.v201711301708]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-06-15 11:26:43.885
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:43.885
+!MESSAGE From: JST Server Adapters Extensions 3.3.700.v201910252115 (org.eclipse.jst.server_adapters.ext.feature.feature.group 3.3.700.v201910252115)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:43.885
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jst.server_adapters.ext.feature.feature.jar [3.3.700.v201910252115,3.3.700.v201910252115]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-06-15 11:26:43.885
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:43.885
+!MESSAGE From: JST Server Adapter Plug-in Developer Resources 3.3.600.v201711301708 (org.eclipse.jst.server_adapters.ext.sdk.feature.feature.group 3.3.600.v201711301708)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:43.885
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jst.server_adapters.ext.feature.feature.group [3.3.601.v201711301708,3.3.601.v201711301708]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2020-06-15 11:26:43.966
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2020-06-15 11:26:43.966
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:43.966
+!MESSAGE Software being installed: JST Server Adapter Plug-in Developer Resources 3.3.600.v201711301708 (org.eclipse.jst.server_adapters.ext.sdk.feature.feature.group 3.3.600.v201711301708)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:43.966
+!MESSAGE Software currently installed: JST Server Adapters Extensions 3.3.700.v201910252115 (org.eclipse.jst.server_adapters.ext.feature.feature.group 3.3.700.v201910252115)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-06-15 11:26:43.966
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:43.966
+!MESSAGE JST Server Adapters Extensions 3.3.700.v201910252115 (org.eclipse.jst.server_adapters.ext.feature.feature.jar 3.3.700.v201910252115)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:43.966
+!MESSAGE JST Server Adapters Extensions 3.3.601.v201711301708 (org.eclipse.jst.server_adapters.ext.feature.feature.jar 3.3.601.v201711301708)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-06-15 11:26:43.967
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:43.967
+!MESSAGE From: JST Server Adapters Extensions 3.3.601.v201711301708 (org.eclipse.jst.server_adapters.ext.feature.feature.group 3.3.601.v201711301708)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:43.967
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jst.server_adapters.ext.feature.feature.jar [3.3.601.v201711301708,3.3.601.v201711301708]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-06-15 11:26:43.967
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:43.967
+!MESSAGE From: JST Server Adapters Extensions 3.3.700.v201910252115 (org.eclipse.jst.server_adapters.ext.feature.feature.group 3.3.700.v201910252115)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:43.967
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jst.server_adapters.ext.feature.feature.jar [3.3.700.v201910252115,3.3.700.v201910252115]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-06-15 11:26:43.967
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:43.967
+!MESSAGE From: JST Server Adapter Plug-in Developer Resources 3.3.600.v201711301708 (org.eclipse.jst.server_adapters.ext.sdk.feature.feature.group 3.3.600.v201711301708)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:43.967
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jst.server_adapters.ext.feature.feature.group [3.3.601.v201711301708,3.3.601.v201711301708]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2020-06-15 11:26:44.020
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2020-06-15 11:26:44.020
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:44.020
+!MESSAGE Software being installed: JST Server Adapter Plug-in Developer Resources 3.3.600.v201711301708 (org.eclipse.jst.server_adapters.ext.sdk.feature.feature.group 3.3.600.v201711301708)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:44.020
+!MESSAGE Software currently installed: JST Server Adapters Extensions 3.3.700.v201910252115 (org.eclipse.jst.server_adapters.ext.feature.feature.group 3.3.700.v201910252115)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-06-15 11:26:44.020
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:44.020
+!MESSAGE JST Server Adapters Extensions 3.3.700.v201910252115 (org.eclipse.jst.server_adapters.ext.feature.feature.jar 3.3.700.v201910252115)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:44.020
+!MESSAGE JST Server Adapters Extensions 3.3.601.v201711301708 (org.eclipse.jst.server_adapters.ext.feature.feature.jar 3.3.601.v201711301708)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-06-15 11:26:44.020
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:44.020
+!MESSAGE From: JST Server Adapters Extensions 3.3.601.v201711301708 (org.eclipse.jst.server_adapters.ext.feature.feature.group 3.3.601.v201711301708)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:44.020
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jst.server_adapters.ext.feature.feature.jar [3.3.601.v201711301708,3.3.601.v201711301708]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-06-15 11:26:44.020
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:44.020
+!MESSAGE From: JST Server Adapters Extensions 3.3.700.v201910252115 (org.eclipse.jst.server_adapters.ext.feature.feature.group 3.3.700.v201910252115)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:44.020
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jst.server_adapters.ext.feature.feature.jar [3.3.700.v201910252115,3.3.700.v201910252115]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-06-15 11:26:44.020
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:44.020
+!MESSAGE From: JST Server Adapter Plug-in Developer Resources 3.3.600.v201711301708 (org.eclipse.jst.server_adapters.ext.sdk.feature.feature.group 3.3.600.v201711301708)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:44.020
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jst.server_adapters.ext.feature.feature.group [3.3.601.v201711301708,3.3.601.v201711301708]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2020-06-15 11:26:44.035
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2020-06-15 11:26:44.035
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:44.035
+!MESSAGE Software being installed: JST Server Adapter Plug-in Developer Resources 3.3.600.v201711301708 (org.eclipse.jst.server_adapters.ext.sdk.feature.feature.group 3.3.600.v201711301708)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:44.035
+!MESSAGE Software currently installed: JST Server Adapters Extensions 3.3.700.v201910252115 (org.eclipse.jst.server_adapters.ext.feature.feature.group 3.3.700.v201910252115)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-06-15 11:26:44.035
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:44.035
+!MESSAGE JST Server Adapters Extensions 3.3.700.v201910252115 (org.eclipse.jst.server_adapters.ext.feature.feature.jar 3.3.700.v201910252115)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:44.035
+!MESSAGE JST Server Adapters Extensions 3.3.601.v201711301708 (org.eclipse.jst.server_adapters.ext.feature.feature.jar 3.3.601.v201711301708)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-06-15 11:26:44.035
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:44.035
+!MESSAGE From: JST Server Adapters Extensions 3.3.601.v201711301708 (org.eclipse.jst.server_adapters.ext.feature.feature.group 3.3.601.v201711301708)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:44.035
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jst.server_adapters.ext.feature.feature.jar [3.3.601.v201711301708,3.3.601.v201711301708]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-06-15 11:26:44.035
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:44.035
+!MESSAGE From: JST Server Adapters Extensions 3.3.700.v201910252115 (org.eclipse.jst.server_adapters.ext.feature.feature.group 3.3.700.v201910252115)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:44.035
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jst.server_adapters.ext.feature.feature.jar [3.3.700.v201910252115,3.3.700.v201910252115]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-06-15 11:26:44.035
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:44.035
+!MESSAGE From: JST Server Adapter Plug-in Developer Resources 3.3.600.v201711301708 (org.eclipse.jst.server_adapters.ext.sdk.feature.feature.group 3.3.600.v201711301708)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:44.035
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jst.server_adapters.ext.feature.feature.group [3.3.601.v201711301708,3.3.601.v201711301708]
