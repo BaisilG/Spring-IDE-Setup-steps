@@ -8,7 +8,7 @@
 </head>
 <body>
 
-I am Baisil
+<%= request.getAttribute("staff") %>
 
 </body>
 </html>
