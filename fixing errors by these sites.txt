@@ -1,0 +1,10 @@
+fixing errors
+
+
+
+https://beginnersbook.com/2017/06/superclass-javax-servlet-http-httpservlet-was-not-found-eclipse-ide/
+
+
+https://stackoverflow.com/questions/34253779/tomcat-server-error-port-8080-already-in-use/47509311
+
+
