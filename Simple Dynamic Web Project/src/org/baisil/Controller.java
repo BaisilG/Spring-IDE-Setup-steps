@@ -36,7 +36,13 @@ public class Controller extends HttpServlet {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 		
-		List<Person> people = new ArrayList<>();
+		List<Person> staff = new ArrayList<>();
+		staff.add(new Person("Baisil", 25));
+		staff.add(new Person("Paul", 26));
+ 
+		request.setAttribute("staff", staff);
+		
+		request.getRequestDispatcher("view.jsp").forward(request, response);
 		
 		
 		
