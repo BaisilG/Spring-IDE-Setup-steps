@@ -11,7 +11,9 @@ import javax.servlet.http.HttpServletResponse;
 public class Controller extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-    
+    //http://localhost:8081/Simple_Dynamic_Web_Project/   this controller is getting by the running the server
+	
+	
     public Controller() {
         super();
         // TODO Auto-generated constructor stub
