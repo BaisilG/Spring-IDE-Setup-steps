@@ -8,4 +8,19 @@ select these things :
  1. Eclipse Java EE developer Tools 
  2. Eclipse Java Web Developer Tools
 
+
+
+Give An introduction of WebContrainer!
+
+Web Server!
+a web server is : 
+	A system that delivers any content to end users over the Internet
+	Also known as Internet Server
+	
+
+A web container is :
+	the componet of the web server that interact with the Java servlets
+	also known as Servlet Container
+	allows servlets to execute inside it 
+	
  
