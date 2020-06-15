@@ -227,3 +227,40 @@ java.net.UnknownHostException: jope.ow2.org
 !MESSAGE From: JST Server Adapter Plug-in Developer Resources 3.3.600.v201711301708 (org.eclipse.jst.server_adapters.ext.sdk.feature.feature.group 3.3.600.v201711301708)
 !SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-06-15 11:26:44.035
 !MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jst.server_adapters.ext.feature.feature.group [3.3.601.v201711301708,3.3.601.v201711301708]
+
+!ENTRY org.eclipse.wst.server.core 4 0 2020-06-15 11:33:26.698
+!MESSAGE Error occurred installing server: invalid entry CRC (expected 0x89ff85ac but got 0xbd334dc6)
+!STACK 0
+java.util.zip.ZipException: invalid entry CRC (expected 0x89ff85ac but got 0xbd334dc6)
+	at java.util.zip.ZipInputStream.readEnd(Unknown Source)
+	at java.util.zip.ZipInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.wst.server.core.internal.InstallableRuntime2.copyWithSize(InstallableRuntime2.java:175)
+	at org.eclipse.wst.server.core.internal.InstallableRuntime2.unzip(InstallableRuntime2.java:333)
+	at org.eclipse.wst.server.core.internal.InstallableRuntime2.install(InstallableRuntime2.java:265)
+	at org.eclipse.jst.server.tomcat.ui.internal.TomcatRuntimeComposite$4$2.run(TomcatRuntimeComposite.java:229)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jst.server.tomcat.ui 4 2 2020-06-15 11:33:42.770
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jst.server.tomcat.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.server.tomcat.ui.internal.TomcatRuntimeComposite$4$3.done(TomcatRuntimeComposite.java:241)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:80)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:118)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:701)
+	at org.eclipse.core.internal.jobs.WorkerPool.endJob(WorkerPool.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:83)
+
+!ENTRY org.eclipse.wst.server.core 4 0 2020-06-15 11:33:42.779
+!MESSAGE Error occurred installing server: invalid entry size (expected 1283584 but got 1284672 bytes)
+!STACK 0
+java.util.zip.ZipException: invalid entry size (expected 1283584 but got 1284672 bytes)
+	at java.util.zip.ZipInputStream.readEnd(Unknown Source)
+	at java.util.zip.ZipInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.wst.server.core.internal.InstallableRuntime2.copyWithSize(InstallableRuntime2.java:175)
+	at org.eclipse.wst.server.core.internal.InstallableRuntime2.unzip(InstallableRuntime2.java:333)
+	at org.eclipse.wst.server.core.internal.InstallableRuntime2.install(InstallableRuntime2.java:265)
+	at org.eclipse.jst.server.tomcat.ui.internal.TomcatRuntimeComposite$4$2.run(TomcatRuntimeComposite.java:229)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
